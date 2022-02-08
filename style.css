@@ -161,6 +161,8 @@ img {
 .nav {
   height: 100vh;
   padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
