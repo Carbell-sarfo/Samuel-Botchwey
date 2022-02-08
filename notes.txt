@@ -1,0 +1,18 @@
+NOTES TO BE COMPLETED
+1. When the show menu for the ".nav" is false and not showing, it is still there only just transparent. 
+HOW TO SOLVE = 1. find a way to allow click through when nav is not showing
+               2. fix the nav-overlay so that it can be separated from the nav, then the nav can be hidden. (DONE)
+
+2/6/2022 to do list
+1. .section-books: grid-template columns
+
+complete the whole design
+1. fix grid columns for the main and nav in desktop mode
+
+
+
+
+
+08/02/2022
+Problem Encounted
+1. when I resize downwards, to the smartphone size, the gallery couresel just destroys and everything just overblows.
