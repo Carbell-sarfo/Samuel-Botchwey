@@ -699,6 +699,29 @@ footer p {
   }
 }
 
+.form-success {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.form-success .success-box {
+  padding: 30px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.form-success .success-box p {
+  color: #6e6e6e;
+  margin: 20px 0 30px;
+}
+
 .slick-dots {
   position: absolute;
   bottom: -25px;
