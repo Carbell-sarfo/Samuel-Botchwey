@@ -41,8 +41,8 @@ h1 {
     // background: $color-gray-light;
     height: 100vh;
     padding: 30px; 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -180,7 +180,6 @@ h1 {
     }
 }
 
-
 // =========== SECTION-ABOUT ============
 .section-about {
     padding: 5rem 0;
@@ -199,22 +198,12 @@ h1 {
     padding-bottom: 5rem;
     position: relative;
 
-    .gallery-slider {
+    .gallery-container {
         width: 100%;
-        height: auto;
-    }
-    .image {
-        margin: 3em 1em;
-        // width: 300px;
-        // height: auto;
-
-        img {
-            // display: none;
-        }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
-
-
 
 // =========== SECTION-BOOK ============
 .section-books {
@@ -235,6 +224,7 @@ h1 {
         @include ease;
         border-radius: 30px;
         text-align: center;
+        padding-bottom: 30px;
 
         &:hover {
             transform: translateY(-4px);
@@ -252,13 +242,42 @@ h1 {
             font-size: 14px;
             color: #828282;
         }
-        p {
-            padding: 3rem 2rem 5rem;
+        .book-text {
+            padding: 3rem 2rem 4rem;
+            white-space: wrap;
+            text-overflow: ellipsis; 
+            word-wrap: break-word;
+            overflow: hidden;
+            max-height: 6.5em;
+            line-height: 1.5em;
         }
+
     }
 }
 
+// ============ SECTION-EDUCATION ==========
+.section-education {
+    padding: 5rem 0 10rem;
+    
+    .education-details {
+        text-align: left;
 
+        details {
+            display: block;
+            background: $color-gray-light;
+            margin-bottom: 1rem;
+            padding: 2rem 3rem;
+            border-radius: 15px;
+            cursor: pointer;
+            border: 1px solid #c7c7c7;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            
+            p {
+                margin-top: 30px;
+            }
+        }
+    }
+}
 
 // =============== SECTION CONTACT ================
 .section-contact {
@@ -278,7 +297,7 @@ h1 {
         margin-bottom: 10rem;
 
         .details {
-            background: linear-gradient(to right bottom, rgba($color-gray-light, .25), rgba($color-gray-light, .25)), url(./Assets/contact-image.png);
+            background: linear-gradient(to right bottom, rgba($color-gray-light, .25), rgba($color-gray-light, .25)), url(./../Assets/contact-image.png);
             background-size: cover;    
             background-position: center;
             padding: 5rem 3rem;

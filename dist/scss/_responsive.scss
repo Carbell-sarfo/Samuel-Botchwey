@@ -29,13 +29,11 @@
         z-index: 9;
         width: 75vw;
         max-width: 275px;
-        // transform: translate3d(-100%, 0, 0);
         overflow: hidden;
         pointer-events: none;
         
 
         &.show {
-            // transform: translate3d(0, 0, 0);
             pointer-events: initial;
         }
 
@@ -84,6 +82,14 @@
         
     }
 
+    // SECTION-HERO
+    .section-hero {
+
+        .hero-img {
+            display: none;
+        }
+    }
+
     // SECTION-BOOK
     .section-books {
 
@@ -112,8 +118,10 @@
     
     // SECTION-GALLERY
     .section-gallery {
-        display: none;
-        // background-color: red;
+
+        .gallery-container {
+            grid-template-columns: 1fr;
+        }
     }
    
 }
@@ -167,10 +175,7 @@
     }
 
 
-    // SECTION GALLERY 
-    .section-gallery {
-        
-    }
+   
 
     // SECTION-BOOK 
     .section-books {

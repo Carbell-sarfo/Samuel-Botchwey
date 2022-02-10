@@ -8,7 +8,7 @@
 
 
     <!-- main css file -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,8 +18,6 @@
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- slick cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 
 
     <title>Samuel Botchwey</title>
@@ -34,7 +32,7 @@
     <!-- ========= Navigation and Side View ========= -->
     <nav class="nav">
         <div class="nav-img">
-            <img src="./Assets/samuel botchwey.png" alt="Samuel Botchwey">
+            <img src="./dist/Assets/samuel botchwey.png" alt="Samuel Botchwey">
         </div>
         <div class="nav-overlay"></div>
         <ul class="nav-list">
@@ -53,17 +51,17 @@
         </ul>
         <ul class="nav_social-list">
             <li class="nav_social-item">
-                <a href="#" class="nav_social-link">
+                <a href="https://m.facebook.com/?af_rdr=0&af_cm=0&af_cm1&_rdc=1&_rdr" class="nav_social-link">
                     <i class="fab fa-facebook-f"></i>
                 </a>
             </li>
             <li>
-                <a href="#" class="nav_social-link">
+                <a href="https://www.instagram.com/sammzysmart/" class="nav_social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
             </li>
             <li>
-                <a href="#" class="nav_social-link">
+                <a href="https://mobile.twitter.com/home" class="nav_social-link">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
@@ -111,7 +109,7 @@
                             </p>
                         </div>
                         <div class="about-img">
-                            <img src="./Assets/about image.png" alt="Samuel">
+                            <img src="./dist//Assets/about image.png" alt="Samuel">
                         </div>
                     </div>
                 </div>
@@ -119,19 +117,10 @@
             <!-- ===== Gallery ===== -->
             <section class="section-gallery" id="section-gallery">
                 <div class="container">
-                    <div class="gallery-slider">
-                        <div class="image">
-                            <img src="./Assets/gallery1.png" alt="Botchwey">                       
-                        </div>
-                        <div class="image">
-                            <img src="./Assets/gallery 2.png" alt="sammzy">                       
-                        </div>
-                        <div class="image">
-                            <img src="./Assets/gallery3.png" alt="smart">                       
-                        </div>
-                        <div class="image">
-                            <img src="./Assets/gallery1.png" alt="sammzysmart">                       
-                        </div>
+                    <div class="gallery-container">
+                        <img src="./dist//Assets/gallery1.png" alt="Botchwey">                       
+                        <img src="./dist/Assets/gallery 2.png" alt="sammzy">                       
+                        <img src="./dist/Assets/gallery3.png" alt="smart">                       
                     </div>
                 </div>
             </section>
@@ -144,22 +133,27 @@
 
                     <div class="books-container">
                         <div class="book">
-                            <img src="./Assets/365 DAYS WITH SELF-DISCIPLINE.png" alt="365 days with SELF-DISCIPLINE">
-                            <h3>365 days with self-discipline</h3>
-                            <h4>Martin meadows</h4>
-                            <p>This read comes higly recommeded. This read tends to serve as a tool in elevating your game in discipline. This book became an impact as it gave daily disciplines one could follow in developing a setady discipline life.</p>
+                            <img src="./dist/Assets/365 DAYS WITH SELF-DISCIPLINE.png" alt="365 days with SELF-DISCIPLINE">
+                            <div class="book-title">
+                                <h3>365 days with self-discipline</h3>
+                                <h4>Martin meadows</h4>
+                            </div>
+                            <p class="book-text mb-30">This read comes higly recommeded. This read tends to serve as a tool in elevating your game in discipline. This book became an impact as it gave daily disciplines one could follow in developing a setady discipline life.</p>
+                            <a href="#" class="btn btn-primary">Read More &longrightarrow;</a>
                         </div>
                         <div class="book">
-                            <img src="./Assets/the new great depression.png" alt="the new great depression">
+                            <img src="./dist/Assets/the new great depression.png" alt="the new great depression">
                             <h3>the new great depression</h3>
                             <h4>Jim Rickards</h4>
-                            <p>Jim Rickards, being on of my favourite economist and a genius in macro economics expressly gives his views and predictions of the US economy. this book has given me the awareness of how government seem to cling to power and how they used the recent pandemic as a facade to gain control and how it has further had an adverse effects on the economy as well you and I as inidividuals. He brought to understanding how histrory teaches, the manner by which previous pandemics affected people and how the economy was affected. he further brought to my enlightenment, certain investment one can make to protect him or serself from the happenings to occur in the furture</p>
+                            <p  class="book-text mb-30">Jim Rickards, being on of my favourite economist and a genius in macro economics expressly gives his views and predictions of the US economy. this book has given me the awareness of how government seem to cling to power and how they used the recent pandemic as a facade </p>
+                            <a href="#" class="btn btn-primary">Read More &longrightarrow;</a>
                         </div>
                         <div class="book">
-                            <img src="./Assets/smart thinking.png" alt="smart thinking">
+                            <img src="./dist/Assets/smart thinking.png" alt="smart thinking">
                             <h3>smart thinking</h3>
                             <h4>mathew allen</h4>
-                            <p>I consider this reas as one of the important reads anyone should have. In this era, we seen to find ouselves in, it becomes imperative that one not just think but think smart. This book has brought to light a simple but yet effective means by which anyone (including me) can and should employ in making effective reasoning. I got to understand the relevance of making claims and the functions of premises, the role of ductive and inductive reasoning play, being able to analyze the information and finally structure them into a meaningful thought.</p>
+                            <p class="book-text mb-30">I consider this reas as one of the important reads anyone should have. In this era, we seen to find ouselves in, it becomes imperative that one not just think but think smart. This book has brought to light a simple but yet effective means by which anyone (including me) can and should employ in making effective reasoning.</p>
+                            <a href="#" class="btn btn-primary">Read More &longrightarrow;</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +162,29 @@
             <!-- ===== Eduction ===== -->
             <section class="section-education" id="eduction">
                 <div class="container">
-                    <h2 class="heading-primary">Education</h2>
+                    <h2 class="heading-primary mb-50">Education</h2>
+                    <div class="education-details">
+                        <details>
+                            <summary>Bachelor of Business Administration</summary>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            <br>    Corrupti, accusantium?</p>
+                        </details>
+                        <details>
+                            <summary>Bachelor of Business Administration</summary>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            <br>    Corrupti, accusantium?</p>
+                        </details>
+                        <details>
+                            <summary>Bachelor of Business Administration</summary>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            <br>    Corrupti, accusantium?</p>
+                        </details>
+                        <details>
+                            <summary>Bachelor of Business Administration</summary>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            <br>    Corrupti, accusantium?</p>
+                        </details>
+                    </div>
                 </div>
             </section>
 
@@ -207,17 +223,17 @@
                     <h2 class="heading-secondary white-text align-center">Follow me on social media</h2>
                     <ul class="social-list">
                         <li class="social-item">
-                            <a href="#" class="social-link">
+                            <a href="https://m.facebook.com/?af_rdr=0&af_cm=0&af_cm1&_rdc=1&_rdr" class="social-link">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="social-item">
-                            <a href="#" class="social-link">
+                            <a href="https://www.instagram.com/sammzysmart/" class="social-link">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="social-item">
-                            <a href="#" class="social-link">
+                            <a href="https://mobile.twitter.com/home" class="social-link">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
@@ -233,14 +249,6 @@
 
     
 
-    <script src="./js/main.js"></script>
-
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/1.1.6/waypoints.min.js"></script> -->
-    <script src="./js/slick.js"></script>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>

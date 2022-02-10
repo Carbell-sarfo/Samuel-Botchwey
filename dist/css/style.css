@@ -454,8 +454,8 @@ img {
 }
 
 .section-contact .contact-container .details {
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(247, 247, 247, 0.25)), to(rgba(247, 247, 247, 0.25))), url(./Assets/contact-image.png);
-  background: linear-gradient(to right bottom, rgba(247, 247, 247, 0.25), rgba(247, 247, 247, 0.25)), url(./Assets/contact-image.png);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(247, 247, 247, 0.25)), to(rgba(247, 247, 247, 0.25))), url(./../Assets/contact-image.png);
+  background: linear-gradient(to right bottom, rgba(247, 247, 247, 0.25), rgba(247, 247, 247, 0.25)), url(./../Assets/contact-image.png);
   background-size: cover;
   background-position: center;
   padding: 5rem 3rem;
