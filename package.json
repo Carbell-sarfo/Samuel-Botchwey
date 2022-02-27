@@ -1,0 +1,24 @@
+{
+  "name": "samuel-botchway-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carbell-sarfo/Samuel-Botchwey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carbell-sarfo/Samuel-Botchwey/issues"
+  },
+  "homepage": "https://github.com/Carbell-sarfo/Samuel-Botchwey#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

@@ -16,3 +16,11 @@ complete the whole design
 08/02/2022
 Problem Encounted
 1. when I resize downwards, to the smartphone size, the gallery couresel just destroys and everything just overblows.
+
+
+footer copyright information
+* put some javascript to always upadate the year to the current year all the time
+
+
+
+ELEVENTY ROCKS for help
