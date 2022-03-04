@@ -24,3 +24,10 @@ footer copyright information
 
 
 ELEVENTY ROCKS for help
+
+
+
+
+TROUBLESHOOT
+1. admin page on mobile cannot post
+2. images dont appeaer on site // Image issue could be with the media in the admin config file.

@@ -95,12 +95,10 @@
     }
 
     // SECTION-BOOK
-    .section-books {
+    // .section-books {
 
-        .books-container {
-            // grid-template-columns: 1fr 1fr;
-        }
-    }
+        
+    // }
 
     // SECTION-CONTACT
     .section-contact {
@@ -123,17 +121,9 @@
     // SECTION-GALLERY
     .section-gallery {
 
-        .gallery-container {
-            grid-template-columns: 1fr;
-        }
     }
    
 }
-
-
-
-
-
 
 
 
@@ -229,10 +219,10 @@
 
 
 
-            .about-text {
-            }
-            .about-img {
-            }
+            // .about-text {
+            // }
+            // .about-img {
+            // }
         }
     }
 
@@ -242,14 +232,6 @@
 
         .books-container {
             grid-template-columns: 1fr 1fr;
-        }
-    }
-
-
-    // SECTION-CONTACT
-    .section-contact {
-        .contact-container {
-            // grid-template-columns: 1fr;
         }
     }
 

@@ -452,16 +452,28 @@ section,
 }
 
 .section-gallery {
-  padding-bottom: 5rem;
-  position: relative;
+  padding: 10rem 0 15rem;
+  background: orange;
+  width: 100%;
 }
 
 .section-gallery .gallery-container {
+  position: relative;
+  padding: 5rem 50px;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+}
+
+.section-gallery .gallery-image {
+  width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.section-gallery .gallery-image img {
+  aspect-ratio: 4/5;
 }
 
 .section-books {
@@ -708,6 +720,85 @@ footer p {
   text-align: center;
 }
 
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li::before {
+  content: "";
+  top: 1px;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  width: 8px;
+  height: 8px;
+  background: darkgray;
+  position: absolute;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active::before {
+  top: 0;
+  width: 12px;
+  height: 12px;
+  margin-left: -2px;
+  background: #0466c8;
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-arrow .fa-solid {
+  font-size: 30px;
+  color: var(--clr-gray-dark-2);
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.slick-arrow .fa-solid:hover, .slick-arrow .fa-solid:focus {
+  color: #0466c8;
+}
+
+.prev-arrow {
+  left: 0;
+}
+
+.next-arrow {
+  right: 0;
+}
+
 /* //////////////////////
   Homepage
   /////////////////////// */
@@ -936,13 +1027,6 @@ footer p {
   }
   .section-contact .contact-form {
     padding-top: 5rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .section-gallery .gallery-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
   }
 }
 

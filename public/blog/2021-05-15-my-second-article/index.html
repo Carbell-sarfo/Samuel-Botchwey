@@ -18,7 +18,12 @@
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- slick js css file -->
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
+    <!-- Git Gateway  -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <title>My Second Article</title>
 </head>
@@ -33,7 +38,7 @@
 <!-- ========= Navigation and Side View ========= -->
 <nav class="nav">
     <div class="nav-img">
-        <img src="/assets/homepage/samuel-botchwey.png" alt="Samuel Botchwey">
+        <img src="/assets/homepage/profile.png" alt="Samuel Botchwey">
     </div>
     <div class="nav-overlay"></div>
     <ul class="nav-list">
@@ -155,5 +160,26 @@
     </main>
   </div>
   <script src="/dist/js/main.js"></script>
+
+   <!-- JQuery external file -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- External-Slick js -->
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <!-- slick file -->
+   <script src="./dist/js/slick.js"></script>
+  
+  <!-- Git Gateway redirect -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script
 </body>
 </html>
