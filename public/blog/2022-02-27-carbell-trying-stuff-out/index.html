@@ -8,7 +8,7 @@
 
 
     <!-- main css file -->
-    <link rel="stylesheet" href="/dist/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,18 +29,28 @@
 </head>
 <body>
 
-     <!-- ========== Menu Button ========= -->
+  
+   <!-- ========== Menu Button ========= -->
    <div class="nav-btn">
     <div class="lines"></div>
     <div class="lines"></div>
     <div class="lines"></div>
 </div>
+<div class="nav-overlay"></div>
+
+<!-- Back to the top switch -->
+<a href="#hero" class="to-top">
+    <i class="fa-solid fa-chevron-up"></i>    
+</a>
+<!-- Day and Night Switch -->
+
+
 <!-- ========= Navigation and Side View ========= -->
 <nav class="nav">
+    <div class="nav-bg"></div>
     <div class="nav-img">
         <img src="/assets/homepage/profile.png" alt="Samuel Botchwey">
     </div>
-    <div class="nav-overlay"></div>
     <ul class="nav-list">
         <li class="nav-item">
             <a href="/index.html" class="nav-link">Home</a>
@@ -52,6 +62,11 @@
             <a href="#section-contact" class="nav-link">Contact Me</a>
         </li>
     </ul>
+    <div class="switch-box">
+        <input type="checkbox" name="switch" id="switch" />
+        <label for="switch" class="label-left"></label>
+        <label for="switch" class="label"></label>
+    </div>
     <ul class="nav_social-list">
         <li class="nav_social-item">
             <a href="https://m.facebook.com/?af_rdr=0&af_cm=0&af_cm1&_rdc=1&_rdr" class="nav_social-link">
@@ -70,6 +85,7 @@
         </li>
     </ul>
 </nav>
+
   <div class="wrapper">
     <main class="main">
       
@@ -99,10 +115,12 @@ this will be my first website I have built using a CMS.</p>
 
 
 
-      <!-- ==== SECTION-CONTACT === -->
-<section class="section-contact" id="section-contact">
+        <!-- ==== SECTION-CONTACT === -->
+  <section class="section-contact" id="section-contact">
     <div class="container">
-        <h2 class="heading-primary white-text mb-50">Contact Me</h2>
+        <div class="text-center">
+            <h2 class="heading-primary mb-50">Contact Me</h2>
+        </div>
         <div class="contact-container">
             <div class="details">
                 <h3 class="heading-secondary mb-20">Contact Details</h3>
@@ -131,7 +149,7 @@ this will be my first website I have built using a CMS.</p>
             </form>
         </div>
 
-        <h2 class="heading-secondary white-text text-center">Follow me on social media</h2>
+        <h2 class="heading-secondary text-center">Follow me on social media</h2>
         <ul class="social-list">
             <li class="social-item">
                 <a href="https://m.facebook.com/?af_rdr=0&af_cm=0&af_cm1&_rdc=1&_rdr" class="social-link">
@@ -156,8 +174,8 @@ this will be my first website I have built using a CMS.</p>
     <p>@2022 Samuel Botchwey. All Right Reserved</p>
 </footer>
     </main>
-  </div>
-  <script src="/dist/js/main.js"></script>
+  </div> 
+  <script src="/js/main.js"></script>
 
    <!-- JQuery external file -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -165,7 +183,7 @@ this will be my first website I have built using a CMS.</p>
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
    <!-- slick file -->
-   <script src="./dist/js/slick.js"></script>
+   <script src="/js/slick.js"></script>
   
   <!-- Git Gateway redirect -->
   <script>
@@ -178,6 +196,6 @@ this will be my first website I have built using a CMS.</p>
         }
       });
     }
-  </script
+  </script>
 </body>
 </html>

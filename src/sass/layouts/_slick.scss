@@ -1,0 +1,84 @@
+
+
+////////////////////////////////////////
+//            SLICK JS 
+///////////////////////////////////////
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    // display: block;
+    // width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  
+    li {
+        position: relative;
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+  
+        &::before {
+            content: "";
+            top: 1px;
+            @include ease;
+            width: 8px;
+            height: 8px;
+            background: darkgray;
+            position: absolute;
+            @include shadow;
+            border-radius: 50%;
+        }
+        &.slick-active::before {
+            top: 0;
+            width: 12px;
+            height: 12px;
+            margin-left: -2px;
+            background: var(--clr-primary);
+        }
+  
+        button {
+            display: none;
+        }
+  
+    }
+  }
+  
+  // Slick Prev & Slick Next
+  .slick-arrow {
+    background: var(--clr-white);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  
+    .fa-solid {
+      font-size: 30px;
+      color: var(--clr-gray-dark-2);
+      @include ease;
+  
+      &:hover, &:focus {
+        color: var(--clr-blue);
+      }
+    }
+  }
+  
+  
+  .prev-arrow {
+    left: 0;
+  }
+  .next-arrow {
+    right: 0;
+  }
+  

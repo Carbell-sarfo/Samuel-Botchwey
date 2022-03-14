@@ -1,0 +1,101 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 65%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #191919;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    background-color: var(--clr-white);
+    color: var(--clr-gray-dark-2);
+
+  --clr-primary: #0466c8;
+  --clr-white: #ffffff;
+  --clr-black: #0C0C0C;
+  --clr-gray-light: #E9EAED;
+  --clr-gray-dark-1: #111111;
+  --clr-gray-dark-2: #27292A;
+
+  // --clr-white: #0C0C0C;
+  // --clr-black: #fff;
+  // --clr-gray-light: #111111;
+  // --clr-gray-dark-1: #27292A;
+  // --clr-gray-dark-2: #E9EAED;
+
+  --fs-300: 0.9375rem;
+  --fs-400: 1.0625rem;
+  --fs-500: 1.375rem;
+  --fs-600: 1.875rem;
+  --fs-700: 2rem;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "oswald", sans-serif;
+    line-height: 1.1;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    // text-decoration-skip-ink: auto;
+  }
+a {
+  text-decoration: none;
+}
+
+  /* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* A elements that don't have a class get default styles */
+ul {
+  list-style: none;
+}
+ul:not([class]) {
+  list-style-type: disc;
+}
+
+
+
+
+.night {
+  --clr-white: #0C0C0C;
+  --clr-black: #fff;
+  --clr-gray-light: #111111;
+  --clr-gray-dark-1: #27292A;
+  --clr-gray-dark-2: #E9EAED;
+}
+.no-scroll {
+  overflow-y: hidden;
+}

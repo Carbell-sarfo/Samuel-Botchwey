@@ -1,0 +1,152 @@
+
+// =============== SECTION CONTACT ================
+.section-contact {
+    background-color: var(--clr-white);
+    padding: 10rem 0;
+    // text-align: center;
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        text-align: center;
+        border-radius: 30px;
+        overflow: hidden;
+        border: 1px solid #434343;
+        @include shadow;
+        margin-bottom: 10rem;
+
+        .details {
+            background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.597), rgba(0, 0, 0, 0.886)), url(/../assets/homepage/contact-image.jpg);
+            background-size: cover;    
+            background-position: bottom;
+            padding: 5rem 3rem;
+
+            
+            .contact-list {
+                list-style: none;
+                text-align: left;
+                color: #fff;
+            }
+            .contact-item {
+                margin-bottom: 5px;
+
+                i {
+                    margin-right: 20px;
+                    display: inline-block;
+                    padding: 15px;
+                    border-radius: 5px;
+                    border: 2px solid var(--clr-primary);
+                    font-size: 18px;
+                }
+            }
+        }
+        .contact-form {
+            padding: 5rem 1rem;
+
+            .input-field {
+                width: 90%;
+                border: none;
+                outline: none;
+                font-family: inherit;
+                border-radius: 30px;
+                padding: 1rem;
+                padding-left: 1.5rem;
+                margin-bottom: 10px;
+                border: 1px solid #434343;
+                background: transparent;
+                color: var(--clr-white);
+                @include ease;
+                resize: none;
+
+                &:focus, &:valid {
+                    border: 1px solid var(--clr-primary);
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .social-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+
+        .social-item {
+
+            &:nth-child(1) .social-link {
+                background: #3b5998;
+
+                &:hover {
+                    color: #3b5998;
+                }
+            }
+            &:nth-child(2) .social-link {
+                background: #c32aa3;
+
+                &:hover {
+                    color: #c32aa3;
+                }
+            }
+            &:nth-child(3) .social-link {
+                background: #1da1f2;
+
+                &:hover {
+                    color: #1da1f2;
+                }
+            }
+        }
+        .social-link {
+            display: flex;
+            text-decoration: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            border: 2px solid #fff;
+            @include ease;
+            @include shadow;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+
+            &:hover::after,
+            &:hover::after {
+                top: 0;
+            }
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: var(--clr-white);
+                @include ease;
+                z-index: -1;
+            }
+        }
+    }
+
+}
+
+// ====== copyright info ==========
+footer {
+    background: var(--clr-white);
+    padding: 5px;
+
+    p {
+        color: var(--clr-black);
+        font-size: 14px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,46 @@
+
+  /* //////////////////////
+    TYPOGRAPHY
+    /////////////////////// */
+    .white-text {
+        color: #fff;
+    }
+    .black-text {
+        color: #000;
+    }
+    .heading-primary {
+        font-size: 20px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        position: relative;
+        text-align: left;
+        display: inline-block;
+    
+        &::before {
+            content: "";
+            width: 4rem;
+            height: 4px;
+            background: var(--clr-primary);
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateY(4px);
+        }
+        &::after {
+            content: "";
+            width: 3rem;
+            height: 4px;
+            background: var(--clr-black);
+            position: absolute;
+            transform: translateY(8px);
+            right: 0;
+            bottom: 0;
+        }
+    }
+    
+    .heading-secondary {
+        font-family: 'oswald', sans-serif;
+        letter-spacing: .7px;
+        text-transform: uppercase;
+    }
+    
