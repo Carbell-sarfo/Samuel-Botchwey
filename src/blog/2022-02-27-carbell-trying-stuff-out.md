@@ -5,7 +5,7 @@ description: Hello world I hope this will be enough to make you see that things
 author: Samuel Botchway
 date: 2022-02-27T10:41:42.356Z
 tags: post
-image: assets/blog/article-4.jpg
+image: /assets/blog/article-5.jpg
 imageAlt: hello world
 ---
 Hello World.\

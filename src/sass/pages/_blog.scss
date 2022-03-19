@@ -1,0 +1,110 @@
+
+.articles__list {
+
+    .snippet {
+        margin-bottom: 12rem;
+        background-color: var(--clr-white);
+        border-radius: 20px;
+        overflow: hidden;
+        @include shadow;
+        @include ease;
+    }
+
+    .snippet {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "snippet-image"
+            "snippet-title"
+            "snippet-meta"
+            "snippet-body"
+            "snippet-button";
+        gap: .5rem 2rem;
+
+        &__image {
+            grid-area: snippet-image;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;  
+        }
+        &__title {
+            grid-area: snippet-title;
+            font-size: 2.6rem;
+            font-family: "Oswald", sans-serif;
+            text-transform: capitalize;
+            margin: 0 1rem;
+            a {
+                color: var(--clr-gray-dark-2);
+                @include ease;
+
+                &:hover, &:focus {
+                    color: var(--clr-red);
+                }
+            }
+        }
+        &__meta {
+            grid-area: snippet-meta;
+            color: var(--clr-gray-dark-1);
+            font-size: 1.4rem;
+        }
+        &__body {
+            margin-bottom: 2rem;
+        }
+        .btn {
+            grid-area: snippet-button;
+            align-self: start;
+            justify-self: start;
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+
+.individual-article__page {
+    padding-bottom: 15rem;
+}
+
+
+@media screen and (min-width: 1020px) {
+
+    .articles__list {
+        .snippet {
+          grid-template-areas:
+            "snippet-title snippet-image"
+            "snippet-meta snippet-image"
+            "snippet-body snippet-image"
+            "snippet-button snippet-image";
+          grid-column-gap: 4em;
+          grid-template-columns: 1fr 40%;
+          grid-template-rows: min-content min-content min-content 1fr;
+
+          &__title {
+              margin-left: 4rem;
+              margin-top: 4rem;
+          }
+          &__body {
+              margin-left: 4rem;
+          }
+          &__meta {
+              margin-left: 4rem;
+          }
+
+          .btn {
+              margin-left: 4rem;
+              align-self: end;
+          }
+        }
+    }
+  }
+@media screen and (max-width: 1019px) {
+    .articles__list {
+        .snippet {
+            text-align: center;
+
+            .btn {
+                justify-self: center;
+
+            }
+        }
+    }
+}

@@ -4,6 +4,11 @@
     height: 100vh;
     max-height: 800px;
     width: 100%;
+    background-color: var(--clr-white);
+
+    &#hero {
+        padding-top: 0;
+    }
     
     .hero-container {
         width: 100%;
@@ -17,6 +22,7 @@
         
         .hero-text {
             padding-top: 10rem;
+            justify-self: center;
 
             h1 {
                 font-size: 10rem;
@@ -27,8 +33,6 @@
                 margin-bottom: 20px;
                 text-shadow: 5px 5px 0px var(--clr-primary);
             }
-            p {
-            }
         }
     }
 }
@@ -36,7 +40,7 @@
 
 // =========== SECTION-ABOUT ============
 .section-about {
-    padding: 10rem 0;
+    padding: 10rem 0 5rem;
     background: var(--clr-gray-light);
 
     .about-container {
@@ -50,7 +54,7 @@
 
 // ============= SECTION GALLERY ===============
 .section-gallery {
-    padding: 10rem 0 15rem;
+    padding: 0rem 0 15rem;
     width: 100%;
     background-color: var(--clr-gray-light);
 
@@ -98,6 +102,7 @@
         border-radius: 30px;
         text-align: center;
         padding-bottom: 30px;
+        background-color: var(--clr-white);
 
         &:hover {
             transform: translateY(-4px);
@@ -145,13 +150,96 @@
             cursor: pointer;
             border: 1px solid var(--clr-black);
             box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+            summary {
+                color: #fff;
+            }
             
             p {
                 margin-top: 30px;
+                color: #fff;
             }
         }
     }
 }
+
+
+
+
+.section-blog {
+    padding: 10rem 0;
+    background: var(--clr-gray-light);
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .article {
+        width: 100%;
+        text-align: center;
+        @include ease;
+        @include shadow;
+        border-radius: 10px;
+        background-color: var(--clr-white);
+        overflow: hidden;
+
+        .snippet {
+
+            &__title {
+                color: var(--clr-gray-dark-2);
+                font-size: 2.5rem;
+                text-transform: capitalize;
+
+                a {
+                    color: inherit;
+
+                    &:hover, &:focus {
+                        color: var(--clr-primary);
+                    }
+                }
+            }
+            &__meta {
+                color: var(--clr-gray-dark-1);
+                font-size: 1.2rem;
+                margin: .5rem 0;
+            }
+            &__body {
+                margin: 0 1rem 2rem;
+            }
+        }
+
+        &__img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1/0.7;
+        }
+        &__date {
+            font-weight: lighter;
+            color: darkgray;
+            font-size: 1.5rem;
+            margin: 1rem 2rem;
+        }
+        &__description {
+            margin: 1rem;
+            line-height: 1;
+        }
+        &__text {
+            margin: 0 1rem 4rem;
+        }
+        .btn {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -170,6 +258,12 @@
         }
     }
 
+    .section-blog {
+
+        .blog-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
     
 }
 

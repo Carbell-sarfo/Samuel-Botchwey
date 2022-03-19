@@ -1,21 +1,18 @@
----
-title: Recent Articles
-layout: "base.njk"
----
-       
+--- 
 
-<div class="section container">
-  <h1 class="section-title">Recent articles</h1>
+title: Recent articles
+layout: 'base.njk'
 
-  <ul role="list" class="articles__list flow">
-
-    {%- for post in collections.post | reverse -%}
-      
-      {% include "article-snippet.njk" %}
-
-    {%- endfor%}
-
-  </ul>
+--- 
+<div class="section-blog__post" id="hero">
+  <div class="container">
+    <h1 class="heading-secondary mb-50">Recent articles</h1>
+    <div role="list" class="articles__list flow">
+      {%- for post in collections.post | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor-%}
+    </div>
+  </div>
 </div>
 
 

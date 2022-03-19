@@ -6,7 +6,7 @@
 
 .slick-dots {
     position: absolute;
-    bottom: -45px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     // display: block;
@@ -69,7 +69,7 @@
       @include ease;
   
       &:hover, &:focus {
-        color: var(--clr-blue);
+        color: var(--clr-primary);
       }
     }
   }
