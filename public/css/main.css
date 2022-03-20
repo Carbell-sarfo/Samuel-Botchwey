@@ -299,9 +299,14 @@ ul:not([class]) {
 }
 
 .wrapper {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+}
+
+.main {
+  width: 100%;
 }
 
 @media screen and (min-width: 1020px) {
@@ -319,78 +324,47 @@ ul:not([class]) {
 
 .container {
   margin-inline: auto;
-  padding-inline: 1.5em;
+  padding-inline: 1.2em;
   width: 100%;
-  height: 100%;
   max-width: 90rem;
 }
 
-.flex-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gap, 1em);
-  align-items: center;
-  justify-content: center;
-}
-
 .section-contact {
-  background-color: var(--clr-white);
+  width: 100%;
   padding: 10rem 0;
+  background-color: var(--clr-white);
 }
 .section-contact .contact-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-areas: "details" "form" "social";
   grid-template-rows: auto;
-  text-align: center;
-  border-radius: 30px;
-  overflow: hidden;
-  border: 1px solid #434343;
-  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
-  margin-bottom: 10rem;
 }
-.section-contact .contact-container .details {
-  background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.597), rgba(0, 0, 0, 0.886)), url(/../assets/homepage/contact-image.jpg);
-  background-size: cover;
-  background-position: bottom;
-  padding: 5rem 3rem;
-}
-.section-contact .contact-container .details .contact-list {
+.section-contact .details {
   list-style: none;
-  text-align: left;
-  color: #fff;
+  margin-bottom: 4rem;
+  text-align: center;
+  grid-area: details;
 }
-.section-contact .contact-container .details .contact-item {
-  margin-bottom: 5px;
-}
-.section-contact .contact-container .details .contact-item i {
-  margin-right: 20px;
-  display: inline-block;
-  padding: 15px;
-  border-radius: 5px;
-  border: 2px solid var(--clr-primary);
-  font-size: 18px;
-}
-.section-contact .contact-container .contact-form {
-  padding: 5rem 1rem;
-}
-.section-contact .contact-container .contact-form .input-field {
-  width: 90%;
-  border: none;
-  outline: none;
-  font-family: inherit;
-  border-radius: 30px;
-  padding: 1rem;
-  padding-left: 1.5rem;
-  margin-bottom: 10px;
-  border: 1px solid #434343;
-  background: transparent;
-  color: var(--clr-white);
-  transition: 0.4s ease;
-  resize: none;
-}
-.section-contact .contact-container .contact-form .input-field:focus, .section-contact .contact-container .contact-form .input-field:valid {
-  border: 1px solid var(--clr-primary);
+.section-contact .details li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  margin-bottom: 1rem;
+}
+.section-contact .details i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: 2px solid var(--clr-primary);
+  margin-right: 10px;
+}
+.section-contact .details span {
+  word-wrap: wrap;
+  font-size: 1.3rem;
 }
 .section-contact .social-list {
   list-style: none;
@@ -398,6 +372,7 @@ ul:not([class]) {
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  grid-area: social;
 }
 .section-contact .social-list .social-item:nth-child(1) .social-link {
   background: #3b5998;
@@ -445,7 +420,7 @@ ul:not([class]) {
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--clr-white);
+  background: #fff;
   transition: 0.4s ease;
   z-index: -1;
 }
@@ -458,6 +433,41 @@ footer p {
   color: var(--clr-black);
   font-size: 14px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-contact .contact-container {
+    grid-template-columns: 40% auto;
+    grid-template-areas: "details form" "social form";
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-contact .contact-form {
+    margin-bottom: 7rem;
+  }
+}
+.contact-form {
+  width: 100%;
+  text-align: center;
+  grid-area: form;
+}
+.contact-form .input-field {
+  width: 96%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border: 1px solid var(--clr-gray-dark-1);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  resize: none;
+  background: transparent;
+  color: var(--clr-gray-dark-2);
+  font-family: inherit;
+  transition: 0.4s ease;
+}
+.contact-form .input-field:focus, .contact-form .input-field:valid {
+  width: 100%;
+  border: 1px solid var(--clr-primary);
 }
 
 .form-success {
@@ -489,7 +499,7 @@ footer p {
   background-color: var(--clr-gray-light);
   width: 100%;
   height: 100%;
-  max-width: 275px;
+  max-width: 200px;
   position: fixed;
   top: 0;
   left: 0;
@@ -625,6 +635,8 @@ footer p {
   }
 
   .nav-bg {
+    width: 275px;
+    max-width: 276px;
     transform: translate3d(-100%, 0, 0);
     transition: 0.2s;
   }
@@ -765,7 +777,7 @@ footer p {
 }
 
 .articles__list .snippet {
-  margin-bottom: 12rem;
+  margin-bottom: 6rem;
   background-color: var(--clr-white);
   border-radius: 20px;
   overflow: hidden;
@@ -814,7 +826,7 @@ footer p {
 }
 
 .individual-article__page {
-  padding-bottom: 15rem;
+  padding-bottom: 12rem;
 }
 
 @media screen and (min-width: 1020px) {
@@ -843,13 +855,18 @@ footer p {
   .articles__list .snippet {
     text-align: center;
   }
+  .articles__list .snippet__image {
+    margin-bottom: 1rem;
+  }
+  .articles__list .snippet__body {
+    margin: 0 1rem;
+  }
   .articles__list .snippet .btn {
     justify-self: center;
   }
 }
 .section-hero {
   height: 100vh;
-  max-height: 800px;
   width: 100%;
   background-color: var(--clr-white);
 }
@@ -871,7 +888,7 @@ footer p {
   justify-self: center;
 }
 .section-hero .hero-container .hero-text h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   line-height: 1;
   margin-left: -5px;
   font-family: "Damn", sans-serif;
@@ -923,7 +940,7 @@ footer p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 3rem;
+  gap: 3rem 1rem;
   width: 100%;
 }
 .section-books .book {
@@ -991,7 +1008,7 @@ footer p {
 .section-blog .blog-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 3rem 1rem;
   margin-bottom: 10rem;
 }
 .section-blog .article {
@@ -1007,6 +1024,7 @@ footer p {
   color: var(--clr-gray-dark-2);
   font-size: 2.5rem;
   text-transform: capitalize;
+  margin-top: 1rem;
 }
 .section-blog .article .snippet__title a {
   color: inherit;
@@ -1045,6 +1063,19 @@ footer p {
 }
 
 @media screen and (min-width: 1020px) {
+  .section-hero .hero-container h1 {
+    font-size: 15rem;
+  }
+
+  .section-books .books-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-blog .blog-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
   .section-books .books-container {
     grid-template-columns: 1fr 1fr;
   }

@@ -1,4 +1,37 @@
 /////////////////////////////////
+//       FOOTER FORMS
+/////////////////////////////////
+.contact-form {
+    width: 100%;
+    text-align: center;
+    grid-area: form;
+
+    .input-field {
+        width: 96%;
+        padding: 1rem;
+        outline: none;
+        border: none;
+        border: 1px solid var(--clr-gray-dark-1);
+        border-radius: 20px;
+        margin-bottom: 1rem;
+        resize: none;
+        background: transparent;
+        color: var(--clr-gray-dark-2);
+        font-family: inherit;
+        @include ease;
+
+        &:focus, &:valid {
+            width: 100%;
+            border: 1px solid var(--clr-primary);
+        }
+    }
+}
+
+
+
+
+
+/////////////////////////////////
 //       FORMS SUCCESS
 /////////////////////////////////
 .form-success {

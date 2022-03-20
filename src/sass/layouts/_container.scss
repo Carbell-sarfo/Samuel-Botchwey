@@ -1,11 +1,14 @@
 .wrapper {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: auto;
   }
   
-  main {
+  .main {
     // padding-top: 10rem;
+    width: 100%;
+    // width: 300px;
   }
   
   @media screen and (min-width: 1020px) {
@@ -26,19 +29,12 @@
 // ========== Container =============
 .container {
     margin-inline: auto;
-    padding-inline: 1.5em;
+    padding-inline: 1.2em;
     width: 100%;
-    height: 100%;
     max-width: 90rem;
   }
   
   
-  .flex-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap, 1em);
-    align-items: center;
-    justify-content: center;
-  }
+
 
  

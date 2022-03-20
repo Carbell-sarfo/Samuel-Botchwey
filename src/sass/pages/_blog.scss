@@ -2,7 +2,7 @@
 .articles__list {
 
     .snippet {
-        margin-bottom: 12rem;
+        margin-bottom: 6rem;
         background-color: var(--clr-white);
         border-radius: 20px;
         overflow: hidden;
@@ -61,7 +61,7 @@
 
 
 .individual-article__page {
-    padding-bottom: 15rem;
+    padding-bottom: 12rem;
 }
 
 
@@ -100,6 +100,13 @@
     .articles__list {
         .snippet {
             text-align: center;
+
+            &__image {
+                margin-bottom: 1rem;
+            }
+            &__body {
+                margin: 0 1rem;
+            }
 
             .btn {
                 justify-self: center;

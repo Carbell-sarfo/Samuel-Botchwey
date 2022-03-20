@@ -2,7 +2,6 @@
 // /=========== SECTION-HERO ===========
 .section-hero {
     height: 100vh;
-    max-height: 800px;
     width: 100%;
     background-color: var(--clr-white);
 
@@ -25,7 +24,7 @@
             justify-self: center;
 
             h1 {
-                font-size: 10rem;
+                font-size: 7rem;
                 line-height: 1;
                 margin-left: -5px;
                 font-family: 'Damn', sans-serif;
@@ -92,7 +91,7 @@
         // grid-template-columns: 1fr 1fr;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        gap: 3rem;
+        gap: 3rem 1rem;
         width: 100%;
     }
 
@@ -173,7 +172,7 @@
     .blog-container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 3rem 1rem;
         margin-bottom: 10rem;
     }
 
@@ -192,6 +191,7 @@
                 color: var(--clr-gray-dark-2);
                 font-size: 2.5rem;
                 text-transform: capitalize;
+                margin-top: 1rem;
 
                 a {
                     color: inherit;
@@ -251,6 +251,16 @@
 
 @media screen and (min-width: 1020px) {
 
+    .section-hero {
+
+        .hero-container {
+
+            h1 {
+                font-size: 15rem;
+            }
+        }
+    }
+
     .section-books {
 
         .books-container {
@@ -267,6 +277,21 @@
     
 }
 
+@media screen and (min-width: 768px) {
+    .section-books {
+
+        .books-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .section-blog {
+        .blog-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .section-gallery {
@@ -280,4 +305,5 @@
             gap: 1rem;
         }
     }
+
 }
