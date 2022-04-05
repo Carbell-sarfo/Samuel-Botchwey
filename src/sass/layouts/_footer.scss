@@ -13,6 +13,7 @@
             "details"
             "form"
             "social"
+            "privacy"
         ;
         grid-template-rows: auto;
     }
@@ -22,22 +23,26 @@
         margin-bottom: 4rem;
         text-align: center;
         grid-area: details;
+        margin-top: 5rem;
 
         li {
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 100%;
+            width: 80%;
             margin-bottom: 1rem;
+            margin-inline: auto;
         }
 
         i {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
+            display: flex;
+            width: 45px;
+            height: 45px;
             border-radius: 3px;
             border: 2px solid var(--clr-primary);
             margin-right: 10px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40%;
         }
         span {
             word-wrap: wrap;
@@ -76,6 +81,13 @@
                 color: #1da1f2;
             }
         }
+        &:nth-child(4) .social-link {
+            background: #0e76a8;
+
+            &:hover {
+                color: #0e76a8;
+            }
+        }
     }
     .social-link {
         display: flex;
@@ -112,7 +124,27 @@
             z-index: -1;
         }
     }
+    
 }
+    .privacy {
+        display: flex;
+        width: 100%;
+        margin-top: 5rem;
+        align-items: center;
+        justify-content: space-evenly;
+        grid-area: privacy;
+
+        a {
+            display: inline-block;
+            @include ease;
+            color: var(--clr-gray-dark-2);
+
+            &:hover, &:focus {
+                transform: scale(1.1) skew(5deg, 2deg);
+                color: var(--clr-primary)
+            }
+        }
+    }
 }
 
 
@@ -139,6 +171,7 @@ footer {
             grid-template-areas: 
             "details form"
             "social form"
+            "privacy form"
         ;        
         }
     }

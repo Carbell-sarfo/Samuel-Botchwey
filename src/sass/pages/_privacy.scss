@@ -1,0 +1,25 @@
+.section-privacy {
+    background: var(--clr-gray-light);
+    padding: 10em 0;
+    font-size: 1.6rem;
+    line-height: 1.7;
+
+    ul, ol {
+        margin-bottom: 2rem;
+
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+
+    a {
+        color: var(--clr-primary);
+        cursor: pointer;
+        @include ease;
+        word-wrap: break-word;
+
+        &:hover, &:focus {
+            color: #920000;
+        }
+    }
+}

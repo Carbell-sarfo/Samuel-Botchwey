@@ -3,10 +3,15 @@
 .section-hero {
     height: 100vh;
     width: 100%;
-    background-color: var(--clr-white);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.812)),
+                       url(/assets/homepage/hero-page.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom right;
+    // background-color: var(--clr-white);
 
     &#hero {
-        padding-top: 0;
+        padding-top: 5rem;
     }
     
     .hero-container {
@@ -22,6 +27,10 @@
         .hero-text {
             padding-top: 10rem;
             justify-self: center;
+            
+            p {
+                font-size: 1.7rem;
+            }
 
             h1 {
                 font-size: 7rem;
@@ -32,6 +41,10 @@
                 margin-bottom: 20px;
                 text-shadow: 5px 5px 0px var(--clr-primary);
             }
+            em {
+                // text-shadow: 1px 1px 1px var(--clr-primary);
+            }
+
         }
     }
 }
@@ -131,6 +144,31 @@
 
     }
 }
+.book__modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // background-color: rgba(0, 0, 0, 0.575);
+    background-color: red;
+    z-index: 12;
+
+    .book__modal {
+        width: 80%;
+        max-width: 600px;
+        padding: 3rem;
+        background: var(--clr-white);
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
 
 // ============ SECTION-EDUCATION ==========
 .section-education {
@@ -150,13 +188,18 @@
             border: 1px solid var(--clr-black);
             box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 
+            &open {
+                @include ease;
+            }
+
             summary {
                 color: #fff;
             }
             
             p {
-                margin-top: 30px;
                 color: #fff;
+                margin-left: 18px;
+                margin-bottom: 3px;
             }
         }
     }
@@ -278,6 +321,7 @@
 }
 
 @media screen and (min-width: 768px) {
+    
     .section-books {
 
         .books-container {
@@ -293,6 +337,16 @@
 }
 
 @media screen and (max-width: 600px) {
+    .section-hero {
+
+        .buttons {
+            a {
+                &:nth-child(1) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
 
     .section-gallery {
 
@@ -306,4 +360,18 @@
         }
     }
 
+}
+@media screen and (max-width: 320px) {
+
+    .section-hero {
+
+        .buttons {
+            a {
+                &:nth-child(1) {
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }
