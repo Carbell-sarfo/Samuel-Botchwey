@@ -936,7 +936,7 @@ footer p {
   text-shadow: 5px 5px 0px var(--clr-primary);
 }
 .section-about {
-  padding: 10rem 0 5rem;
+  padding: 15rem 0 5rem;
   background: var(--clr-gray-light);
 }
 .section-about .about-container {
