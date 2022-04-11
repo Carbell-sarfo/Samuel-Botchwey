@@ -5,6 +5,7 @@ author: Samuel Botchwey
 date: 2022-04-11T17:55:43.573Z
 tags:
   - post
+  - featured
 image: /assets/blog/article-1.jpg
 imageAlt: Smart thinking
 ---
