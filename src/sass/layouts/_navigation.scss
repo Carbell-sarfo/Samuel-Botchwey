@@ -11,6 +11,30 @@
     z-index: -1;
 }
 
+// =============== LOGO ==================
+.logo {
+    width: 40px;
+    height: auto;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .4s;
+    cursor: pointer;
+    z-index: 10;
+    @include shadow;
+
+
+    &:hover, &:focus {
+        opacity: 0.5;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
 
 
 .nav {
