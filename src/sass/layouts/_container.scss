@@ -11,14 +11,6 @@
     // width: 300px;
   }
   
-  @media screen and (min-width: 1020px) {
-    .wrapper {
-        grid-template-columns: 20vw auto;
-    }
-    main {
-        grid-column-start: 2;
-    }
-}
 
 #hero {
   padding-top: 12rem;
@@ -31,7 +23,7 @@
     margin-inline: auto;
     padding-inline: 1.2em;
     width: 100%;
-    max-width: 90rem;
+    max-width: 110rem;
   }
   
   
