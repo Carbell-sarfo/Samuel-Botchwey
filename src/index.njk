@@ -9,7 +9,7 @@ layout: "base.njk"
     <div class="container">
         <div class="hero-container text-center">
             <div class="hero-text">
-                <p>Hi, I'm</p>
+                <p class="mt-20">Hi, I'm</p>
                 <h1>Samuel</h1>
                 <p class="mb-30 hero-paragraph">Be My Most Priced Guest.</p>
                 <div class="buttons">
@@ -29,18 +29,25 @@ layout: "base.njk"
         </div>
         <div class="about-container">
             <div class="about-text">
-                <h2 class="heading-secondary text-center mb-20">who am i</h2>
-                <p>Hey there! I'm Samuel, a 21-year-old soon to be a graduate in the Bachelor of Business Administration. I take personal interest in the world of Business, to be specific that of investing. I as well claim to have a self-certified passion in music (I mean who doesn't). 
-                    <br> <br>
-                However, my interest mostly lies in classical music which justifies how much I love the voilin.
-                <br> <br>
-                I have a broad base books collection which I would be showing and give my objective view of the books as well as some recommendations. I have a deep fondness with my collection of books as they tend to define who I am. I'm a chess player as well. Due to the fact it teaches open mindedness and strategy for the least.
-                <br> <br>
-                I aspire to become a macro economist. I am currently embarking on a course in Business Intelligence Anaysis which would serve as a stepping stone moving forward in the career game.
-                </p>
-            </div>
-            <div class="about-img">
-                <img src="./assets/homepage/about-img.jpg" alt="Samuel">
+                <h2 class="heading-secondary text-center mb-50">who am i</h2>
+                <div class="col-2">
+                    <p>
+                        Hey there! I'm Samuel, I am a graduate from the University of Professional Studies with a degree in Bachelor of Business Administration. I take personal interest in the world of Business, to be specific that of investing. I as well claim to have a self-certified passion in music (I mean who doesn't). 
+                        <br> <br>
+                        I have a broad base books collection which I would be showing and give my objective view of the books as well as some recommendations. I have a deep fondness with my collection of books as they tend to define who I am. I'm a chess player as well. Due to the fact it teaches open mindedness and strategy for the least.
+                        
+                    </p>
+                    <p>
+                        I aspire to become a macro economist. I am currently embarking on a course in Business Intelligence Anaysis which would serve as a stepping stone moving forward in the career game.
+
+                        <br> <br>
+                        
+
+                        However, my interest mostly lies in classical music which justifies how much I love the voilin.
+                   </p>
+                </div>
+                
+                
             </div>
         </div>
     </div>
@@ -121,7 +128,6 @@ layout: "base.njk"
             <h2 class="heading-secondary">Here are some of my recent posts</h2>
         </div>
         <div class="blog-container">
-
             {%- for post in collections.featured | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}

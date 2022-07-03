@@ -4,9 +4,15 @@ title: Recent articles
 layout: 'base.njk'
 
 --- 
+<div class="logo-animation">
+  <img src="/assets/homepage/logo.jpg" alt="b-smart logo" class="logo-image">
+  <h1 class="logo-text">Bsmart</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+</div>
+
 <div class="section-blog__post" id="hero">
   <div class="container">
-    <h1 class="heading-secondary mb-50">Recent articles</h1>
+    <h1 class="heading-secondary mb-50 text-center">Recent articles</h1>
     <div role="list" class="articles__list flow">
       {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}

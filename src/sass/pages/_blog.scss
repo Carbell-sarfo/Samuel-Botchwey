@@ -1,65 +1,106 @@
+.logo-animation {
+    margin-top: 5rem;
+    text-align: center;
 
-.articles__list {
-
-    .snippet {
-        margin-bottom: 6rem;
-        background-color: var(--clr-white);
-        border-radius: 20px;
-        overflow: hidden;
-        @include shadow;
-        @include ease;
+    img {
+        display: inline-block;
+        width: auto;
+        height: 50px;
+        border-radius: 10px;
+        margin-right: 10px;
+        animation-name: logo-image;
+        animation-duration: 3.2s;
+        animation-fill-mode: forwards;
     }
-
-    .snippet {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "snippet-image"
-            "snippet-title"
-            "snippet-meta"
-            "snippet-body"
-            "snippet-button";
-        gap: .5rem 2rem;
-
-        &__image {
-            grid-area: snippet-image;
-            width: 100%;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;  
-        }
-        &__title {
-            grid-area: snippet-title;
-            font-size: 2.6rem;
-            font-family: "Oswald", sans-serif;
-            text-transform: capitalize;
-            margin: 0 1rem;
-            a {
-                color: var(--clr-gray-dark-2);
-                @include ease;
-
-                &:hover, &:focus {
-                    color: var(--clr-red);
-                }
-            }
-        }
-        &__meta {
-            grid-area: snippet-meta;
-            color: var(--clr-gray-dark-1);
-            font-size: 1.4rem;
-        }
-        &__body {
-            margin-bottom: 2rem;
-        }
-        .btn {
-            grid-area: snippet-button;
-            align-self: start;
-            justify-self: start;
-            margin-bottom: 5rem;
-        }
+    h1 {
+        display: inline-block;
+        animation-name: logo-text;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    p {
+        animation-name: logo-tagline;
+        animation-duration: .5s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
 }
 
 
+
+.articles__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem 1rem;
+    margin-bottom: 10rem;}
+
+.article {
+    background-color: var(--clr-white);
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+
+    .snippet {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-template-columns: 40% 1fr;
+        grid-template-rows: min-content min-content min-content 1fr;
+        grid-template-areas:
+        "snippet-image snippet-title"
+        "snippet-image snippet-meta"
+        "snippet-image snippet-body"
+        "snippet-image snippet-button";
+
+        &__image {
+            grid-area: snippet-image;
+            border-radius: 10px;
+        }
+
+        &__title {
+            grid-area: snippet-title;
+            font-size: 2.5rem;
+            margin-bottom: .5rem;
+
+
+            a {
+                color: var(--clr-black);
+
+                &:hover,
+                &:focus {
+                    color: var(--clr-primary);
+                }
+            }
+
+        }
+        &__meta {
+            grid-area: snippet-meta;
+            color: darkgray;
+            font-size: 1.2rem;
+        }
+        &__body {
+            grid-area: snippet-body;
+        }
+        .btn {
+            grid-area: snippet-button;
+            margin-top: 1rem;
+            align-self: end;
+            justify-self: start;
+        }
+    }
+}
+  
+
+
+
+
+
+// ============= INDIVIDUAL BLOG PAGE ====================
 .individual-article__page {
     padding-bottom: 12rem;
 
@@ -82,51 +123,7 @@
 
 @media screen and (min-width: 1020px) {
 
-    .articles__list {
-        .snippet {
-          grid-template-areas:
-            "snippet-title snippet-image"
-            "snippet-meta snippet-image"
-            "snippet-body snippet-image"
-            "snippet-button snippet-image";
-          grid-column-gap: 4em;
-          grid-template-columns: 1fr 40%;
-          grid-template-rows: min-content min-content min-content 1fr;
-
-          &__title {
-              margin-left: 4rem;
-              margin-top: 4rem;
-          }
-          &__body {
-              margin-left: 4rem;
-          }
-          &__meta {
-              margin-left: 4rem;
-          }
-
-          .btn {
-              margin-left: 4rem;
-              align-self: end;
-          }
-        }
-    }
   }
 @media screen and (max-width: 1019px) {
-    .articles__list {
-        .snippet {
-            text-align: center;
-
-            &__image {
-                margin-bottom: 1rem;
-            }
-            &__body {
-                margin: 0 1rem;
-            }
-
-            .btn {
-                justify-self: center;
-
-            }
-        }
-    }
+  
 }
