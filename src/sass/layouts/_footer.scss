@@ -24,7 +24,8 @@
         text-align: center;
         grid-area: details;
         margin-top: 5rem;
-
+        margin-left: -20px;
+        
         li {
             display: flex;
             align-items: center;
@@ -45,7 +46,8 @@
             border-radius: 40%;
         }
         span {
-            word-wrap: wrap;
+            color: var(--clr-black);
+            overflow: wrap;
             font-size: 1.3rem;
         }
     }

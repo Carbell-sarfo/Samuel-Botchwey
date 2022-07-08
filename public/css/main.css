@@ -378,6 +378,7 @@ ul:not([class]) {
   text-align: center;
   grid-area: details;
   margin-top: 5rem;
+  margin-left: -20px;
 }
 .section-contact .details li {
   display: flex;
@@ -398,7 +399,8 @@ ul:not([class]) {
   border-radius: 40%;
 }
 .section-contact .details span {
-  word-wrap: wrap;
+  color: var(--clr-black);
+  overflow: wrap;
   font-size: 1.3rem;
 }
 .section-contact .social-list {
