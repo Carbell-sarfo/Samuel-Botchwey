@@ -272,8 +272,8 @@
         background-color: var(--clr-white);
         padding: 10px;
         border-radius: 10px;
-        overflow: hidden;
-        height: 200px;
+        // overflow: hidden;
+        // max-height: 400px;
 
         .snippet {
             width: 100%;
@@ -291,6 +291,9 @@
             &__image {
                 grid-area: snippet-image;
                 border-radius: 10px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
 
             &__title {
@@ -322,6 +325,7 @@
                 margin-top: 1rem;
                 align-self: end;
                 justify-self: start;
+                padding-block: 1rem;
             }
         }
     }

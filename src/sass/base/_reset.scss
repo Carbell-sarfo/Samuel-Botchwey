@@ -99,3 +99,9 @@ ul:not([class]) {
 .no-scroll {
   overflow-y: hidden;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    // font-size: 1.3rem;
+  }
+}

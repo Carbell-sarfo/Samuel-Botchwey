@@ -1,3 +1,12 @@
+// table of content
+// 1. Logo animation
+// 2. Welcome Video
+// 3. Article Snippet
+// 4. Individual Block Page
+
+
+
+// ========= LOGO ANIMATION ================
 .logo-animation {
     margin-top: 5rem;
     text-align: center;
@@ -30,7 +39,22 @@
 }
 
 
+// ========== WELCOME VIDEO ===========
+.blog-video {
+    // background: red;
+    padding: 5rem 0 0rem;
+    // margin-top: 5rem;
 
+    video {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+    }
+}
+
+
+
+// =========== ARTICLE SNIPPET  ==============
 .articles__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -41,8 +65,8 @@
     background-color: var(--clr-white);
     padding: 10px;
     border-radius: 10px;
-    overflow: hidden;
-    height: 200px;
+    // overflow: hidden;
+    // height: 200px;
 
     .snippet {
         width: 100%;
@@ -60,6 +84,9 @@
         &__image {
             grid-area: snippet-image;
             border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         &__title {
@@ -104,24 +131,83 @@
 .individual-article__page {
     padding-bottom: 12rem;
 
-    img {
-        margin-bottom: 3rem;
+    .flow {
+        max-width: 1000px;
+        margin-inline: auto;
     }
 
+    .main-article__figure {
+        margin-bottom: 1rem;
+        position: relative;
+        padding: 0;
+        height: 300px;
+
+        img {
+            width: 200px;
+            height: auto;
+            aspect-ratio: 1 / 1.5;
+            object-fit: cover;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            border-radius: 5px;
+        }
+
+        &::before, &::after {
+            content: "";
+            display: inline-block;
+            height: .1rem;
+            width:25%;
+            background-color: var(--clr-black);
+            position: absolute;
+            top: 50%;
+        }
+        &::before {
+            left: 0;
+        }
+        &::after {
+            right: 0;
+        }
+    }
+    
+    .description {
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+    .author {
+        text-transform: capitalize;
+        color: darkgray;
+    }
+
+    hr {
+        margin: 4rem 0;
+    }
+
+
+
     h1 {
-        margin-bottom: .5rem;
-        margin-top: 3rem;
+        // margin-bottom: .5rem;
+        // margin-top: 3rem;
     }
-    .heading-secondary {
-        margin-bottom: 50px;
-    }
+    
     p {
         margin-bottom: 1rem;
     }
 }
 
 
-@media screen and (min-width: 1020px) {
+@media screen and (max-width: 600px) {
+   .individual-article__page {
+       
+
+       .main-article__figure {
+
+        &::before, &::after {
+            display: none;
+        }
+       }
+   }
 
   }
 @media screen and (max-width: 1019px) {

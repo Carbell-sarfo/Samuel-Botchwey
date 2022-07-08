@@ -1,6 +1,6 @@
 ---
 title: SMART THINKING
-description: hello world
+description: hello world this should be just a little introduction of this book.
 author: Samuel Botchwey
 date: 2022-04-11T17:55:43.573Z
 tags:
@@ -9,10 +9,10 @@ tags:
 image: /assets/blog/article-1.jpg
 imageAlt: Smart thinking
 ---
-> "There is an inner logic, and we're taught to stay far from it. It is simple and elegant, but it is cruel and antithetic. \
+> "There is an inner logic, and we're taught to stay far from it. It is simple and elegant, but it is cruel and antithetic.
 > And there's not effort to reveal it." 
 >
-> \    Bad Religion, 'Inner Logic'
+>  Bad Religion, 'Inner Logic'
 
 The world we live in today makes it imperative that we just not think but do so with reasoning. Why? so much as it is, Reasoning happens to form the basis of much of our thinking. Matthew Allen, makes it known in his book as to how one can make probable arguments through effective reasoning.
 
