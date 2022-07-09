@@ -997,6 +997,16 @@ footer p {
 .individual-article__page hr {
   margin: 4rem 0;
 }
+.individual-article__page h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  font-family: "Yellowtail", cursive;
+  letter-spacing: 2px;
+}
+.individual-article__page .heading-secondary {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0px;
+}
 .individual-article__page p {
   margin-bottom: 1rem;
 }
@@ -1235,7 +1245,9 @@ footer p {
   grid-area: snippet-image;
   border-radius: 10px;
   height: 100%;
+  max-height: 250px;
   width: 100%;
+  max-width: 150px;
   object-fit: cover;
 }
 .section-blog .article .snippet__title {
@@ -1256,6 +1268,8 @@ footer p {
 }
 .section-blog .article .snippet__body {
   grid-area: snippet-body;
+  line-height: 1.35;
+  margin-top: 10px;
 }
 .section-blog .article .snippet .btn {
   grid-area: snippet-button;
