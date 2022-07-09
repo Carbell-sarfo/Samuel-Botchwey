@@ -1239,7 +1239,7 @@ footer p {
   grid-column-gap: 1rem;
   grid-template-columns: 40% 1fr;
   grid-template-rows: min-content min-content min-content 1fr;
-  grid-template-areas: "snippet-image snippet-title" "snippet-image snippet-meta" "snippet-image snippet-body" "snippet-image snippet-button";
+  grid-template-areas: "snippet-image snippet-summary" "snippet-image snippet-title" "snippet-image snippet-meta" "snippet-image snippet-reviewer" "snippet-image snippet-body" "snippet-image snippet-button";
 }
 .section-blog .article .snippet__image {
   grid-area: snippet-image;
@@ -1249,6 +1249,12 @@ footer p {
   width: 100%;
   max-width: 150px;
   object-fit: cover;
+}
+.section-blog .article .snippet__summary {
+  grid-area: snippet-summary;
+}
+.section-blog .article .snippet__writer {
+  grid-area: snippet-reviewer;
 }
 .section-blog .article .snippet__title {
   grid-area: snippet-title;

@@ -1,9 +1,11 @@
 <div class="article">
     <article class="snippet">
       <img src="{{ post.data.image  }}" alt="{{ post.data.imageAlt }}" class="snippet__image">
+      <p class="snippet__summary">Review of</p>
       <h3 class="snippet__title"> <a href="{{ post.url }}">  {{ post.data.title }} </a></h3>
-      <p class="snippet__meta"> by <span>{{ post.data.author }}</span> <span>{{ post.date | postDate }}</span></p>
-      <p class="snippet__body">{{ post.data.description }}</p>
+      <p class="snippet__meta"> by <span>{{ post.data.author }}</span> </p>
+      <p class="snippet__writer">Reviewed by Samuel Botchwey</p>
+      <!-- <p class="snippet__body">{{ post.data.description }}</p> -->
       <a href="{{ post.url }}" class="btn btn-neutral">Read More</a>
     </article>
   </div>

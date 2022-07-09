@@ -283,8 +283,10 @@
             grid-template-columns: 40% 1fr;
             grid-template-rows: min-content min-content min-content 1fr;
             grid-template-areas:
+            "snippet-image snippet-summary"
             "snippet-image snippet-title"
             "snippet-image snippet-meta"
+            "snippet-image snippet-reviewer"
             "snippet-image snippet-body"
             "snippet-image snippet-button";
 
@@ -296,6 +298,13 @@
                 width: 100%;
                 max-width: 150px;
                 object-fit: cover;
+            }
+
+            &__summary {
+                grid-area: snippet-summary;
+            }
+            &__writer {
+                grid-area: snippet-reviewer;
             }
 
             &__title {

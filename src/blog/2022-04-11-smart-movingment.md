@@ -1,7 +1,7 @@
 ---
 title: SMART THINKING
 description: hello world this should be just a little introduction of this book.
-author: Samuel Botchwey
+author: Not Samuel Botchwey
 date: 2022-04-11T17:55:43.573Z
 tags:
   - post

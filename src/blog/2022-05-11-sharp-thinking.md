@@ -1,10 +1,11 @@
 ---
 title: SMART THINKING
 description: hello world this should be just a little somehting
-author: Samuel Botchwey
+author: Matthew Allen
 date: 2022-04-11T17:55:43.573Z
 tags:
   - post
+  - featured
 image: /assets/blog/smart-thinking.jpg
 imageAlt: Smart thinking
 ---
