@@ -1,40 +1,37 @@
 ---
-title: SMART THINKING
-description: hello world
-author: Samuel Botchwey
-date: 2022-04-11T17:55:43.573Z
+title: THE NEW GREAT DEPRESSION
+description: WINNERS AND LOSERS IN A POST-PANDEMIC WORLD
+author: James Rickards
+date: 2022-07-12T00:30:00.307Z
 tags:
   - post
-image: /assets/blog/article-1.jpg
-imageAlt: Smart thinking
+image: /assets/blog/25.jpg
+imageAlt: The New Great Depression
 ---
-> "There is an inner logic, and we're taught to stay far from it. It is simple and elegant, but it is cruel and antithetic. \
-> And there's not effort to reveal it." 
->
-> \    Bad Religion, 'Inner Logic'
+It is going to be hard to go back to normal especially now that we are constantly informed that we cannot go back to normal.
 
-The world we live in today makes it imperative that we just not think but do so with reasoning. Why? so much as it is, Reasoning happens to form the basis of much of our thinking. Matthew Allen, makes it known in his book as to how one can make probable arguments through effective reasoning.
+Lionel Shriver, Spiked.
+
+The world we live in today. Least did anyone expect a global pandemic, causing the deaths of many and transcended to a global economic collapse. History tells us this hasn't been the first. How then were the past situations handled? What would be the post effect of the pandemic? What influence would that have on us now and in the future and how do we recover from this from an economic perspective. All this does this read, The New Great Depression enlighten us about.
 
 # Synopsis
 
-This book focusses on the analytical structural format, primarily as a means of learning about reasoning, but also as a tool for planning the construction and presentation of arguments and explanation. This book proposes a framework that , when combined with the concept of analytical inquiries, has a means of reflecting the mental processes that smart thinkers must go through.
+The current crises isn't the same as the that of 2008 or 1929. The New Great Depression, which resulted from the Covid pandemic, is worst the worst economic downturn in history. The majority of those who have been fired will continue to be redundant. Bankruptcies will be common, and banks will succumb to the weight of bad debts. 
 
-It was also stated that smart thinking is more than a method of skill. It is a mentality. The book provides a series of exercises, inquiring further as to why practice is necessary. This tends to make one aware of what one should be doing and that if willing, once can reflect on and learn about the reasoning process.
+This read brought to understanding, any chance of recovery will be shattered be deflation, inflation, debt and demography, with social disorder following closely behind market chats. 
 
-This is how one develops the proper mindset for becoming a smart thinker, competent in reasoning and capable of achieving one's objectives through arguments and explanations.
+Despite the fact, not all hope is lost for savvy investors. This read peels back the curtain on the underlying risks to our financial system and what wise investors may do to survive-and perhaps flourish-during unprecedented upheaval in the new great depression.
 
 # Thoughts
 
-I, on a personal level, that is think this is a fantastic book. I happen to be a huge believer in logic. Why? I have been in a number of instances where both my own and my opponent's  arguments are of course, illogical. I, however grew to understand to the importance of being logical in any argument or claim. 
+James Rickards, a New York Times bestselling author throws a clarifying light on the events taking place using historical case studies, monetary theory and behind the scenes access to the halls of power to help investors grasp what's actually going on and what they can do about it.
 
-This book helps clear the fog on this path I was on. I very much appreciate the exercises that were offered together with the discussions to help us bring out the practical side of our minds. However, I would have loved if the concept extended beyond making reasonable arguments and the sorts of 'schooling setting' to being able to apply them to daily situations.
+ Despite the fact the read seemed to be overly directed to investors, it was structured in an easy to read manner by which any average person could read and grasp the content of what is being said. What I prefer to see in books is facts ( well certain kind of), and I must say Rickards pulled it off extremely well. 
 
-Regardless, if one truly immerses oneself in what is being stated, it is easy to see how this is applicable. Above all, this book turned out again to be a fantastic read, and I am glad I stumbled on it because it has contributed value to me.
+As it is said, hitting the nail right on the head. However viable his advises were on what investments to make, I firmly believe it was a brief overview of what it actually entails in pulling off such investments. To follow blindly what is said might put you in a situation adversely opposite that what is to be the case. Aside all, I love the read, and I hope you will as well.
 
 # Recommendation
 
-In a non-biased approach, I recommend that everyone reading this blog post should consider getting a copy of this book. This book should be on your list on must-reads. if you want to improve your ability to make plausible and rational arguments and claims. 
-
-This would be beneficial to you in the same way that it has been beneficial to me.
+A must read to open minded persons who gives a thought to investing and will like to know how one can direct resources to make probable investments and protect them during the greatest economic downturn in history. This happens to be his latest read and I recommend you read his precious books before this read.
 
 ***Happy Reading !!!***
