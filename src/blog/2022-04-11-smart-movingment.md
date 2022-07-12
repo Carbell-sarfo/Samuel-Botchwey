@@ -1,41 +1,34 @@
 ---
-title: SMART THINKING
-description: hello world this should be just a little introduction of this book.
-author: Not Samuel Botchwey
-date: 2022-04-11T17:55:43.573Z
+title: 365 DAYS WITH SELF-DISCIPLINE
+description: 365 LIFE-ALTERING THOUGHTS ON SELF-CONTROL, MENTAL RESILIENCE, AND SUCCESS
+author: Martin Meadows
+date: 2022-07-12T00:49:55.179Z
 tags:
   - post
   - featured
-image: /assets/blog/article-1.jpg
-imageAlt: Smart thinking
+image: /assets/blog/mini_magick20200403-6858-1ixn2kj.png
+imageAlt: 365 Days with Self-Discipline
 ---
-> "There is an inner logic, and we're taught to stay far from it. It is simple and elegant, but it is cruel and antithetic.
-> And there's not effort to reveal it." 
->
->  Bad Religion, 'Inner Logic'
+Willpower is what separates us from the animals. It's the capacity to restrain our impulses, resist temptation, do what's right and good for us in the long run, not what we want to do right now. It's central, in fact, to civilization.
 
-The world we live in today makes it imperative that we just not think but do so with reasoning. Why? so much as it is, Reasoning happens to form the basis of much of our thinking. Matthew Allen, makes it known in his book as to how one can make probable arguments through effective reasoning.
+Roy Baumeister
+
+Ever wondered how siblings, parents, friends, a mentor or someone we admire and respect could be so self-disciplined? Trust me, I'm willing to bet they have, if not all, most of the traits explicitly stated in this book as written by Martin Meadows. A person said to have dedicated his life to personal growth.
 
 # Synopsis
 
-This book focusses on the analytical structural format, primarily as a means of learning about reasoning, but also as a tool for planning the construction and presentation of arguments and explanation. This book proposes a framework that , when combined with the concept of analytical inquiries, has a means of reflecting the mental processes that smart thinkers must go through.
+This book aimed at giving readers a complete proof yearly plan on how to avoid being a weak-willed person and be self-disciplined right from the start. This yearly plan has been divided into weekly and then daily teachings, with the intention of having a daily impact on one's life. This can be achieved when one reads with open mindedness and ponders on what is being said to milkout the true meaning.
 
-It was also stated that smart thinking is more than a method of skill. It is a mentality. The book provides a series of exercises, inquiring further as to why practice is necessary. This tends to make one aware of what one should be doing and that if willing, once can reflect on and learn about the reasoning process.
-
-This is how one develops the proper mindset for becoming a smart thinker, competent in reasoning and capable of achieving one's objectives through arguments and explanations.
+Through this book, readers are made well-versed with well thought quotes on a daily basis, some from well known sources and others not really known. The book referenced them as life-altering thoughts on self control, mental resilience and success. Evidently, does this book takes us on a journey, with daily nuggets which serves as a stepping stone in becoming a more self-disciplined person.
 
 # Thoughts
 
-I, on a personal level, that is think this is a fantastic book. I happen to be a huge believer in logic. Why? I have been in a number of instances where both my own and my opponent's  arguments are of course, illogical. I, however grew to understand to the importance of being logical in any argument or claim. 
+I was quite overwhelmed actually having to absorb all this nuggets. The book was constructed in an easy to read format, with short but insightful lesson for each day. Throughout the book, the read gave readers the tendency to be able to engage their ideas and thought process. I appreciate the book references since they introduce readers to a variety of books that expressly discuss the subject matter.
 
-This book helps clear the fog on this path I was on. I very much appreciate the exercises that were offered together with the discussions to help us bring out the practical side of our minds. However, I would have loved if the concept extended beyond making reasonable arguments and the sorts of 'schooling setting' to being able to apply them to daily situations.
-
-Regardless, if one truly immerses oneself in what is being stated, it is easy to see how this is applicable. Above all, this book turned out again to be a fantastic read, and I am glad I stumbled on it because it has contributed value to me.
+ I however believe it could have been done much better. Despite being an excellent read, the book sounded repetitious at points. It had an unprofessional feel to it because it kept repeating the same idea. Aside from that, the book is an excellent one in general because it provides a foundation for people to be inspired to attain their goals on a daily basis.
 
 # Recommendation
 
-In a non-biased approach, I recommend that everyone reading this blog post should consider getting a copy of this book. This book should be on your list on must-reads. if you want to improve your ability to make plausible and rational arguments and claims. 
-
-This would be beneficial to you in the same way that it has been beneficial to me.
+This book is addressed to everyone. We may have the correct systems, methods and goals as individuals, but sometimes all we need is a push to be self-disciplined in taking action and completing tasks. To all who wish to be better persons( discipline wise), take time to to have a read.
 
 ***Happy Reading !!!***
