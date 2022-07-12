@@ -41,14 +41,15 @@
 
 // ========== WELCOME VIDEO ===========
 .blog-video {
-    // background: red;
     padding: 5rem 0 0rem;
-    // margin-top: 5rem;
+    width: 100%;
+    text-align: center;
 
     video {
-        width: 100%;
-        max-width: 1000px;
-        height: auto;
+       width: 100%;
+       max-width: 900px;
+       height: auto;
+       display: inline-block;
     }
 }
 
@@ -76,10 +77,20 @@
         grid-template-columns: 40% 1fr;
         grid-template-rows: min-content min-content min-content 1fr;
         grid-template-areas:
+        "snippet-image snippet-summary"
         "snippet-image snippet-title"
         "snippet-image snippet-meta"
-        "snippet-image snippet-body"
+        "snippet-image snippet-writer"
+        // "snippet-image snippet-body"
         "snippet-image snippet-button";
+
+        &__summary {
+            grid-area: snippet-summary;
+        }
+        &__writer {
+            grid-area: snippet-writer;
+            font-size: 1.3rem;
+        }
 
         &__image {
             grid-area: snippet-image;
