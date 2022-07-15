@@ -1,6 +1,6 @@
 ---
 title: SMART THINKING
-description: hello world this should be just a little somehting
+description: SKILLS FOR CRITICAL UNERSTANDING AND WRITING
 author: Matthew Allen
 date: 2022-04-11T17:55:43.573Z
 tags:
