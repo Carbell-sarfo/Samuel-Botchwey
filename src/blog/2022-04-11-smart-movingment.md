@@ -19,7 +19,9 @@ Ever wondered how siblings, parents, friends, a mentor or someone we admire and 
 
 This book aimed at giving readers a complete proof yearly plan on how to avoid being a weak-willed person and be self-disciplined right from the start. This yearly plan has been divided into weekly and then daily teachings, with the intention of having a daily impact on one's life. This can be achieved when one reads with open mindedness and ponders on what is being said to milkout the true meaning.
 
-Through this book, readers are made well-versed with well thought quotes on a daily basis, some from well known sources and others not really known. The book referenced them as life-altering thoughts on self control, mental resilience and success. Evidently, does this book takes us on a journey, with daily nuggets which serves as a stepping stone in becoming a more self-disciplined person.
+If there's one thing that self-discipline is not, it's instant. It takes months, if not years, to build up the strong self-control that will keep you from making rash choices, being lazy, procrastinating, or doing nothing. You must practice self-control every day, every day of the year. This book offers more than simply encouragement; the majority of the chapters offer helpful advice that you can use right now to develop discipline in your life.
+
+Through this book, readers are made well-versed with well thought quotes on a daily basis, some from well known sources and others not really known. The book referenced them as life-altering thoughts on self control, mental resilience and success. Evidently, this book takes us on a journey, with daily nuggets which serves as a stepping stone in becoming a more self-disciplined person.
 
 # Thoughts
 
@@ -29,6 +31,12 @@ I was quite overwhelmed actually having to absorb all this nuggets. The book was
 
 # Recommendation
 
-This book is addressed to everyone. We may have the correct systems, methods and goals as individuals, but sometimes all we need is a push to be self-disciplined in taking action and completing tasks. To all who wish to be better persons( discipline wise), take time to to have a read.
+This book is addressed to everyone. We may have the correct systems, methods and goals as individuals, but sometimes all we need is a push to be self-disciplined in taking action and completing tasks. To all who wish to be better persons (discipline wise), take time to to have a read.
 
 ***Happy Reading !!!***
+
+# **About the Author**
+
+Martin Meadows is a Wall Street Journal best-selling author of personal development books who discusses the importance of developing self-control and how it may improve your success and quality of life. He is dedicated about offering advice, practices, and resources for personal development using a combination of science-backed research and firsthand knowledge.
+
+He enjoys pushing the boundaries of his comfort zone through sometimes risky experiments and journeys including numerous sports and wild or foreign locales. He views learning as a lifetime process.
